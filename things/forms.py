@@ -10,4 +10,4 @@ class ThingForm(forms.ModelForm):
         fields = ['name', 'description', 'quantity']
         widgets = {
             'description': forms.Textarea(), 'quantity': forms.NumberInput()}
-        }
+        
